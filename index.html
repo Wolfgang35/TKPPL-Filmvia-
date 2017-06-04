@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Filmvia</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+    <link rel="stylesheet" type="text/css" href="build/customBuild.css">
+  </head>
+  <body>
+    <article>
+      <section>
+        <h2>Proyek TKPPL</h2>
+      </section>
+      <section>
+        <h2 class="bullet">Created by : </h2>
+        <ul>
+          <li>Peter William</li>
+          <li>Goldwin Chantestuta</li>
+          <li>Steven Goh</li>
+          <li>Kevin</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Filmvia</h1>
+      </section>
+      <section>
+        <h2 class="bullet">Quiz Master</h2>
+        <ul>
+          <li>...</li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="bullet">Apa itu Filmvia?  </h2>
+        <ul>
+          <li class="h6">Filmvia adalah sebuah quiz trivial.</li>
+          <li><img src="build/img/tenor.gif" width="500px"></li>
+          <li style="font-size:24px;font-weight:bold;">Filmvia adalah sebuah quiz mengenai film layar lebar.</li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="bullet">Rules</h2>
+        <ul>
+          <li class="h6">Pada Quiz ini terdapat 2 jenis soal, yaitu :</li>
+          <li class="h6">True or False</li>
+          <li class="h6">Multiple Choice</li>
+        </ul>
+      </section>
+      <section class="a">
+        <h2 class="titleQ">Soal 1</h2>
+        <ul class="question">
+          <li class="h3"></li>
+          <li class="qImgContainer"><img src="build/img/Question/disney.jpg" height="200px"></li>
+          <li>Ketiga musketir dalam Novel &quot;The Three</li>
+          <li>Musketeers&quot; adalah Arthos, Porthos dan Aramis.</li>
+        </ul>
+        <ul class="choice">
+          <li onClick="SelectedC()" onmouseover="lock()" class="tf1 correct">True</li>
+          <li onClick="SelectedW(0)" onmouseover="lock()" class="tf2 wrong">False</li>
+        </ul>
+        <div class="block"></div>
+        <div onClick="incrementValue1()" class="score1"></div>
+        <div onClick="incrementValue2()" class="score2"></div>
+      </section>
+      <section class="a">
+        <h2 class="titleQ">Penjelasan Soal 1</h2>
+        <ul class="expl">
+          <li class="h3"></li>
+          <li style="font-size:17px;">The Three Musketeers merupakan sebuah Novel karya Alexandre Dumas. Arthos, Porthos dan Aramis merupakan ketiga musketir yang dimaksud judul tersebut. Novel ini terkenal dengan quote &quot;All for one, one for all&quot;.</li>
+        </ul>
+        <div onClick="incrementValue1()" class="score1"></div>
+        <div onClick="incrementValue2()" class="score2"></div>
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+    <script src="build/customBuild.js"></script>
+  </body>
+</html>
